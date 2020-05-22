@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootpane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="526.0" prefWidth="1119.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="numbergenerator.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="15.0" layoutY="14.0" minHeight="16" minWidth="69" prefHeight="48.0" prefWidth="582.0" textFill="RED">
+         <font>
+            <Font size="30.0" />
+         </font></Label>
+      <GridPane layoutX="24.0" layoutY="146.0" prefHeight="361.0" prefWidth="410.0" style="-fx-background-color: black;" AnchorPane.bottomAnchor="19.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="694.0" AnchorPane.topAnchor="146.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button fx:id="btn1" mnemonicParsing="false" onAction="#handleBtn1" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: gray;" text="1     " textFill="WHITE">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn2" mnemonicParsing="false" onAction="#handleBtn2" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: gray;" text="2     " textFill="WHITE" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn3" mnemonicParsing="false" onAction="#handleBtn3" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: gray;" text="3     " textFill="WHITE" GridPane.columnIndex="2">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn4" mnemonicParsing="false" onAction="#handleBtn4" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: gray;" text="4     " textFill="WHITE" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn5" mnemonicParsing="false" onAction="#handleBtn5" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: gray;" text="5     " textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn6" mnemonicParsing="false" onAction="#handleBtn6" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: gray;" text="6     " textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn7" mnemonicParsing="false" onAction="#handleBtn7" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: gray;" text="7     " textFill="WHITE" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn8" mnemonicParsing="false" onAction="#handleBtn8" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: gray;" text="8     " textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn9" mnemonicParsing="false" onAction="#handleBtn9" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: gray;" text="9     " textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="back" mnemonicParsing="false" onAction="#backspace" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: gray;" text="&lt;-" textFill="WHITE" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="btn0" mnemonicParsing="false" onAction="#handleBtn0" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: gray;" text="0     " textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Button>
+            <Button fx:id="enter" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="70.0" prefWidth="120.0" style="-fx-background-color: gray;" text="Enter" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="10.0" right="10.0" />
+               </GridPane.margin>
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Button>
+            <Label text="ABC" textFill="WHITE" GridPane.columnIndex="1">
+               <GridPane.margin>
+                  <Insets left="60.0" />
+               </GridPane.margin>
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label text="DEF" textFill="WHITE" GridPane.columnIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="60.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="GHI" textFill="WHITE" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="60.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="JKL" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="60.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="WXYZ" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="60.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="TUV" textFill="WHITE" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="60.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="PQRS" textFill="WHITE" GridPane.rowIndex="2">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="60.0" />
+               </GridPane.margin>
+            </Label>
+            <Label text="MNO" textFill="WHITE" GridPane.columnIndex="2" GridPane.rowIndex="1">
+               <font>
+                  <Font size="18.0" />
+               </font>
+               <GridPane.margin>
+                  <Insets left="60.0" />
+               </GridPane.margin>
+            </Label>
+         </children>
+      </GridPane>
+      <Label fx:id="numbertext" contentDisplay="CENTER" layoutX="21.0" layoutY="62.0" prefHeight="80.0" prefWidth="396.0" style="-fx-background-color: white;" textAlignment="RIGHT">
+         <font>
+            <Font size="40.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutX="437.0" layoutY="62.0" prefHeight="440.0" prefWidth="666.0">
+         <content>
+            <Label fx:id="result" alignment="TOP_LEFT" contentDisplay="TOP" prefHeight="12600.0" prefWidth="650.0" text=" ">
+               <font>
+                  <Font name="Liberation Sans" size="20.0" />
+               </font>
+            </Label>
+         </content>
+      </ScrollPane>
+    </children>
+</AnchorPane>
