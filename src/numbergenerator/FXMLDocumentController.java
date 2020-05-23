@@ -25,11 +25,12 @@ public class FXMLDocumentController implements Initializable {
     @FXML
     private Button btn1,btn2,btn3,btn4,btn5,btn6,btn7,btn8,btn9,btn0,enter,back, backButton;
 
-    private String tmp="";
     
     @FXML
     private void handleButtonAction(ActionEvent event) throws InterruptedException, IOException {
         int len = numbertext.getText().length();
+        String tmp="";
+    
         if(len>7){
             label.setText("Number should be 7 digit.");
         }else if(len==7){
