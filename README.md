@@ -1,4 +1,4 @@
-## About :
+## About:
 Standard telephone keypads contain the digits zero through nine. The numbers two through nine each have three 
 letters associated with them. Many people find it difficult to memorize phone numbers, so they use the correspondence
 between digits and letters to develop seven-letter words that correspond to their phone numbers. For example, a person
@@ -29,6 +29,6 @@ To RUN :
 + navigate to `./Telephone-Number-Word-Generator/dist` .
 + This directory contains `NumberGenerator.jar` file.
 
-To run this Jar file :
+To run this Jar file:
 + Window - Just double click on the jar file.
 + Linux - Run this command in the terminal `java -jar NumberGenerator.jar` .
