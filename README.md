@@ -9,7 +9,7 @@ Every seven-letter phone number corresponds to many different seven letter words
 however, that the owner of a barbershop would be pleased to know that the shop’s telephone number, 424-7288, corresponds
 to “HAIRCUT.” A veterinarian with the phone number 738-2273 would be pleased to know that the number corresponds to the
 letters “PETCARE.” An automotive dealership would be pleased to know that the dealership number, 639-2277, corresponds
-to “NEWCARS.”<br>
+to “NEWCARS”.<br>
 Letters corresponds to digit :<br>
 2 A B C<br>
 5 J K L<br> 
